@@ -14,11 +14,11 @@ public class Main {
         System.out.println(defaultField);
     }
 }
-class Child extends Main {
+class Child  {
     public static void main(String[] args) {
-        System.out.println(publicField);
-        System.out.println(privateField);
-        System.out.println(protectedField);
-        System.out.println(defaultField);
+        System.out.println(Main.publicField);
+        System.out.println(Main.privateField);
+        System.out.println(Main.protectedField);
+        System.out.println(Main.defaultField);
     }
 }
